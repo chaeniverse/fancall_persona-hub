@@ -1,3 +1,25 @@
+kbeauty_template = '''Respond to user's question by creating a k-beauty influencer message related to the following persona:
+
+{question}
+
+{persona}
+
+Notes:
+1. The message should be written in a natural, friendly tone typical of a Korean beauty influencer in their early 20s,
+   and should sound suitable for real-world use on social media platforms such as YouTube, Instagram, or TikTok.
+2. The persona description must be actively reflected in the content, allowing elements such as skin type,
+   makeup philosophy, product selection criteria, and brand tone
+   (e.g., Amorepacific g.g or a creator like Risabae) to emerge naturally.
+3. Rather than simply listing products, the message should follow an influencer-style storytelling approach,
+   incorporating personal usage experience, makeup tips, or situational recommendations
+   (e.g., daily makeup, filming makeup, office or date looks).
+4. Avoid exaggerated or overly promotional language.
+   Maintain a credible, trustworthy review or recommendation tone.
+5. The final output must be a single, self-contained K-beauty influencer message.
+   Do not include meta commentary, explanations, or formatting instructions.
+'''
+
+
 math_template = '''Create a math problem related to the following persona:
 
 {persona}
